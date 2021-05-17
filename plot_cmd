@@ -1,0 +1,9 @@
+#!/bin/bash
+
+cp ./freqtrade_files/Strategies/BB2.py freqtrade/user_data/strategies
+rm ~/src/rl/freqtrade/user_data/plot/ac_results.html
+rm ~/src/rl/freqtrade/user_data/plot/ac_general_results.html
+freqtrade plot-dataframe -s "BB2" --timerange="20200201-20200207" -c "/home/jpiv/src/rl/freqtrade_files/Configs/BinanceUSD.json" --export-filename /home/jpiv/src/rl/ac_results.json --userdir="/home/jpiv/src/rl/freqtrade/user_data"
+mv ~/src/rl/freqtrade/user_data/plot/freqtrade-plot-BTC_USD-5m.html ~/src/rl/freqtrade/user_data/plot/ac_results.html
+freqtrade plot-dataframe -s "BB2" --timerange="20191110-20200131" -c "/home/jpiv/src/rl/freqtrade_files/Configs/BinanceUSD.json" --export-filename /home/jpiv/src/rl/general_test.json --userdir="/home/jpiv/src/rl/freqtrade/user_data"
+mv ~/src/rl/freqtrade/user_data/plot/freqtrade-plot-BTC_USD-5m.html ~/src/rl/freqtrade/user_data/plot/ac_general_results.html

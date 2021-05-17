@@ -1,0 +1,20 @@
+model,epochs,test_type,total_reward,buys,win/loss,profit,notes
+
+ac_1,general,-71.21626689000009,18,5/13,-71.21626689,
+ac_2,general,-90.26791043,1,0/1,-90.26791043,
+ac_3,general,-70.63426542999989,20,11/9,-72.63426543000001,+/-1 on trade
+ac_4,general,-3.9336159855740034,6,1/5,-3.495903779999999,squared on trade
+ac_5,general,0,0,0/0,0,squared on trade
+ac_6,general,90.76872406000011,6,3/3,45.38436203,add total prof on trade
+
+ac_20,general,-51.332559340000685,73,26/47,-25.666279669999987,add total prof on trade
+
+ac_22,20,general,-112.42599836000083,110,38/72,-56.212999179999976,add total prof on trade
+ac_23,100,general,-33.587325619999,59,25/34,-16.79366281000001,add total prof on trade
+ac_24,100,general,-34.30816362000041,58,25/33,-17.612224399999985,add total prof on trade
+ac_25,100,general,270.36854892,6,5/1,135.18427445999998,add total prof on trade
+ac_25,100,general,68.93150313999992,3,3/0,34.465751569999995,add total prof on trade
+ac_26,100,general,13.53063534,1,1/0,6.76531767,add total prof on trade
+ac_27,100,general,0,0,0/0,0,add total prof on trade
+ac_28,500,general,0,0,0/0,0,add total prof on trade
+ac_29,500,general,-109.88462693999753,133,55/78,-49.41462462,add total prof on trade
